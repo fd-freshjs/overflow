@@ -2,24 +2,38 @@
   box-sizing: border-box;
 }
 
-.link {
-  display: inline-block;
-  min-width: 100px;
-  width: 100%;
+.card-header {
+  height: 40vh;
+  background-color: dodgerblue;
+  background-image: url(./fon.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.card-content {
+  text-align: center;
+}
+
+.avatar-wrapper {
+  margin: 0 auto;
+
+  max-width: 100px;
+  min-width: 60px;
+}
+
+.avatar {
+  display: block;
   
-  /* переполнение одной строки */
-  max-width: 150px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  width: 100%;
+  min-height: 60px;
+  max-height: 100px;
+  height: 100%;
 
-  padding: 10px 20px;
-  border: 1px solid;
-  border-radius: 20px;
+  margin-top: -50%;
 
-  text-decoration: none;
-  text-transform: capitalize;
-  color: rgb(17, 97, 177);
+  border: 5px solid white;
+  border-radius: 50%;
 
-  background-color: rgb(4, 155, 4);
+  object-position: top;
+  object-fit: cover;
 }
