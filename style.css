@@ -1,0 +1,15 @@
+.wrapper {
+  background-color: rgb(54, 112, 93);
+  border: 5px solid rgb(70, 139, 1);
+  height: 50vh;
+  width: 40vw; 
+
+  overflow-y: auto;
+}
+
+.inner {
+  padding: 20px;
+  font-size: 20px;
+  background-color: blueviolet;
+  border: 5px solid rgb(2, 2, 197);
+}
