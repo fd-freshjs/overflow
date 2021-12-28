@@ -1,15 +1,25 @@
-.wrapper {
-  background-color: rgb(54, 112, 93);
-  border: 5px solid rgb(70, 139, 1);
-  height: 50vh;
-  width: 40vw; 
-
-  overflow-y: auto;
+* {
+  box-sizing: border-box;
 }
 
-.inner {
-  padding: 20px;
-  font-size: 20px;
-  background-color: blueviolet;
-  border: 5px solid rgb(2, 2, 197);
+.link {
+  display: inline-block;
+  min-width: 100px;
+  width: 100%;
+  
+  /* переполнение одной строки */
+  max-width: 150px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  padding: 10px 20px;
+  border: 1px solid;
+  border-radius: 20px;
+
+  text-decoration: none;
+  text-transform: capitalize;
+  color: rgb(17, 97, 177);
+
+  background-color: rgb(4, 155, 4);
 }
